@@ -1,0 +1,110 @@
+.bonu{
+ background: rgb(248, 250, 250);
+}
+.zade{
+    display: flex;
+    justify-content: space-around;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7B5E7B;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #afbd14;
+    text-align: center;
+    padding: 20px;
+    animation: fade-in 2s ease-in-out;
+  }
+  
+  .p1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #0cebf7;
+    transition: color 0.5s ease-in-out;
+  }
+  
+  .bonu {
+    background-color: #E9EB87;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.5s ease-in-out;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    transform: rotate(0deg);
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .p2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #777;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .p3 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 14px;
+    color: #1C0221;
+  }
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .bonu:hover {
+    background-color: #E9EB87;
+  }
+  
+  .p1:hover {
+    color: #B9F18C;
+  }
+  
+  h2:hover {
+    transform: rotate(360deg);
+  }
+  
+  .p2:hover {
+    opacity: 1;
+  }
+  
+  h3:hover {
+    transform: translateX(0%);
+  }
